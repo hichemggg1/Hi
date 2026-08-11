@@ -1,0 +1,20 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:576: checking host system type
+configure:597: checking target system type
+configure:615: checking build system type
+configure:705: checking for gcc
+configure:818: checking whether the C compiler (clang  ) works
+configure:834: clang -o conftest    conftest.c  1>&5
+configure:831:1: error: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+  831 | main(){return(0);}
+      | ^
+      | int
+1 error generated.
+configure: failed program was:
+
+#line 829 "configure"
+#include "confdefs.h"
+
+main(){return(0);}
